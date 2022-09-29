@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Pousada do Sossego</title>
 
-   <link rel="shortcut icon" href="/image/icone-logo.png" type="image/x-icon">
+   <link rel="shortcut icon" href="image/icone-logo.png" type="image/x-icon">
 
    <!-- fonte link cdn -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -15,8 +15,17 @@
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
+   <!-- font awesome -->
+   <script src="https://use.fontawesome.com/625f803fbf.js"></script>
+
    <!-- link de arquivo css -->
    <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      .pricing .box-container .box .list p {
+       line-height: 1;
+   }
+   </style>
 
 </head>
 <body>
@@ -40,29 +49,7 @@
    <div class="icons">
       <div id="menu-btn" class="fas fa-bars"></div>
       <div id="info-btn" class="fas fa-info-circle"></div>
-      <div id="search-btn" class="teste-02"></div>
-     <div id="login-btn" class="teste"></div>
    </div>
-
-   <form action="" class="search-form">
-      <input type="search" name="" placeholder="Procure aqui..." id="search-box">
-      <label for="search-box" class="fas fa-search"></label>
-   </form> 
-
-<!-- formulário de login -->
-
-   <!-- <form action="" class="login-form">
-      <h3>login form</h3>
-      <input type="email" placeholder="enter your email" class="box">
-      <input type="password" placeholder="enter your password" class="box">
-      <div class="flex">
-         <input type="checkbox" name="" id="remember-me">
-         <label for="remember-me">remember me</label>
-         <a href="#">forgot password?</a>
-      </div>
-      <input type="submit" value="login now" class="btn">
-      <p>don't have an account <a href="#">create one!</a></p>
-   </form> -->
 
 </header>
 
@@ -90,13 +77,11 @@
    </div>
 
    <div class="share">
-      <a href="https://www.facebook.com/pousada.dosossego.5" class="fab fa-facebook-f"></a>
-<<<<<<< HEAD
-=======
-     <!-- <a href="#" class="fab fa-twitter"></a> -->
->>>>>>> parent of e99c3bc (limpando arquivos)
-      <a href="https://www.instagram.com/pousadadosossego/" class="fab fa-instagram"></a>
-      <a href=" http://api.whatsapp.com/send?1=pt_BR&phone=5575992065233" class="fab fa-whatsapp"></a>
+      <a href="https://www.facebook.com/pousada.dosossego.5" class="fab fa-facebook-f" title="Facebook" ></a>
+      <a href="https://www.instagram.com/pousadadosossego/" class="fab fa-instagram" title="Instagram" ></a>
+      <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575992065233" class="fab fa-whatsapp" title="WhatsApp" ></a>
+      <a href="https://www.tripadvisor.com.br/Hotel_Review-g635725-d2691403-Reviews-Pousada_do_Sossego-Lencois_State_of_Bahia.html" 
+      class="fa fa-tripadvisor" title="Tripadvisor" ></a>
    </div>
 
 </div>
@@ -111,27 +96,11 @@
 
       <div class="swiper-wrapper">
 
-         <section class="swiper-slide slide" style="background: url(image/teste-01.jpg) no-repeat;">
-            <div class="content">
-               <!-- <h3>excelência no mercado</h3>
-               <p>Venha conhecer nossos tratamentos e serviços, a melhor escolha para você e sua familia! </p>
-               <a href="#about" class="btn">Agendar</a> -->
-            </div>
-         </section>
+         <section class="swiper-slide slide" style="background: url(image/fundo-pousada.jpg) no-repeat;"></section>
 
-         <section class="swiper-slide slide" style="background: url(image/banner-04.png) no-repeat;">
-            <div class="content">
-               
-               
-               <!-- <a href="#about" class="btn">Agendar</a> -->
-            </div>
-         </section>
+         <section class="swiper-slide slide" style="background: url(image/banner-04.png) no-repeat;"></section>
 
-          <section class="swiper-slide slide" style="background: url(image/banner-03.PNG) no-repeat;">
-            <div class="content">
-            <!-- <a href="#about" class="btn">Agendar</a> -->
-            </div>
-         </section> -->
+          <section class="swiper-slide slide" style="background: url(image/banner-03.PNG) no-repeat;"></section> 
 
       </div>
 
@@ -433,7 +402,7 @@
          </div>
       </a>
 
-      <a href="image/capa-01.jpg" class="box">
+      <a href="image/01.JPG" class="box">
          <div class="image">
             <img src="image/01.JPG" alt="Suíte Casal">
          </div>
@@ -445,7 +414,7 @@
          </div>
       </a>
 
-      <a href="image/capa-09.jpg" class="box">
+      <a href="image/09.JPG" class="box">
          <div class="image">
             <img src="image/09.JPG" alt="Quarto Duplo">
          </div>
@@ -706,7 +675,7 @@
 
 <!-- seção de logotipo -->
 
-<!-- <section class="logo-container">
+ <section class="logo-container">
    <div class="swiper logo-slider">
       <div class="swiper-wrapper">
          <div class="swiper-slide slide"><img src="image/icone-01.png" alt=""></div>
@@ -717,7 +686,7 @@
          <div class="swiper-slide slide"><img src="image/icone-06.png" alt=""></div>
       </div>
    </div>
-</section> -->
+</section> 
 
 <!-- final da seção de logotipo -->
 
@@ -735,18 +704,11 @@
       <a class="btn" href="#contact">Reservar</a>
    </div>
 
-   <div class="credit"> copyright | criado por <span> | JimmySite</span></div>
+   <div class="credit"> copyright | <span> JimmySite</span></div>
 
 </section>
 
 <!-- rodapé -->
-
-
-
-
-
-
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
